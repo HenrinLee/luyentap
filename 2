@@ -1,0 +1,14 @@
+package Assigment7;
+
+import java.util.Scanner;
+
+public class Text2 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter characters in a string: ");
+        String s = sc.nextLine();
+        
+        String[] word = s.split("\\s+");
+        System.out.println("Number words: " + word.length);
+    }
+}
